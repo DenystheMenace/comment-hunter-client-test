@@ -16,12 +16,13 @@ npm install
 
 ## Usage
 
-* Setup the [reddit-scraper-prototype](https://github.com/rosealexander/reddit-scraper-prototype).
-* Setup the [reddit-scraper-server-test](https://github.com/rosealexander/reddit-scraper-server-test).
-* Make sure both of these applications are running on Heroku.
-* Fork this repo and run npm install.
-* Set process.env.REACT_APP_SERVER_NAME to be your server test application name taht is running on Heroku.
-* To start, npm run dev.
+You must create .env file in the root folder of this project on your local machine.  
+Make sure to set REACT_APP_SERVER_NAME=[the-comment-hunter-server-app-name-on-Heroku] in this .env file.
+
+To start,
+```bash
+npm start dev
+```
 
 ## Tools
 
